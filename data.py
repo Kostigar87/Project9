@@ -1,6 +1,6 @@
 headers_kit = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 2078a53a-0c2b-41c4-9745-945671d0d425"
+    "Authorization": "Bearer cb67719a-c83b-4275-82ae-091c10029f0f"
 }
 
 headers_us = {
@@ -14,3 +14,9 @@ user_body = {
 }
 
 kit_body = { "name": "1"}
+'''
+import create_new_user
+headers_kit = {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer " + create_new_user.token
+}'''
